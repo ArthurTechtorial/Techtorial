@@ -1,0 +1,18 @@
+
+
+
+a=11%5
+
+print(a)
+
+
+c=2%6
+print (c)
+
+num1=32.75
+num2=.5
+
+print(num1%num2)
+
+
+print(int(True))

@@ -1,0 +1,15 @@
+a=981
+
+b=a%10
+
+a=(a-b)/10
+
+c=a%10
+
+a=(a-c)/10
+
+d=a%10
+
+e=b*c*d
+
+print (b, "multiply", c ,"multiply" ,d , "is", e)

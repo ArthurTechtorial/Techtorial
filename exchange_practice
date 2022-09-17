@@ -1,0 +1,66 @@
+
+
+dollar=1.88
+dollar=100*dollar
+quarter=25
+dime=10
+nickel=5
+penny=1
+
+count_of_q=dollar//quarter
+
+print(count_of_q)
+
+remainingafterq=dollar%quarter
+
+count_of_dime=remainingafterq//dime
+
+remainingafterdime=remainingafterq%dime
+
+countofnickel=remainingafterdime//nickel
+remainingafternickel=remainingafterdime%nickel
+
+countofpenny=remainingafternickel//penny
+
+print("quarter",count_of_q)
+print("dime",count_of_dime)
+print("nickel",countofnickel)
+print("penny", int(countofpenny))
+
+print (type(dollar))
+
+
+
+a = 25
+b = 5
+​
+# Following line will give me the class of a
+print(type(a))
+​
+print(type(b))
+​
+multiplication = a * b
+print(type(multiplication))
+​
+addition = a + b 
+print(type(addition))
+​
+subtraction= a - b
+print(type(subtraction))
+​
+division = a / b 
+​
+print(type(division))
+
+
+
+
+
+
+
+
+
+
+
+
+

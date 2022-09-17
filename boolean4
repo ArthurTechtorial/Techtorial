@@ -1,0 +1,15 @@
+
+
+
+soldtickets=5000
+
+max_capacity=50000
+
+full=soldtickets<max_capacity
+
+print("Is thr space in stadium?", full)
+
+
+
+
+

@@ -1,0 +1,12 @@
+
+
+
+walking=5000
+
+daiyrun=4
+
+calory=1500
+
+
+loseweight=(walking>=1000 or running daiyrun >=4) and (calory<1500)
+

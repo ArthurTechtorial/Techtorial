@@ -1,0 +1,22 @@
+
+
+
+
+
+num=12
+
+print(bool(num))
+
+str1="this is string"
+
+print(bool(str1))
+
+
+num1=-1
+
+print(bool(num1))
+
+
+str2=''
+
+print(bool(str2))
